@@ -1,2 +1,3 @@
-# Lykke.Bil2.Ripple.SignService
-Ripple integration v2
+# Ripple integration sign service
+
+This component of blockchain integration is intended for generation of deposit addresses for new users and signing transactions.

@@ -1,0 +1,10 @@
+# Common settings
+
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+
+# Sign service settings
+
+EncryptionPrivateKey:
+    settings-key: Ripple-SignService-EncryptionPrivateKey
