@@ -1,13 +1,15 @@
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Lykke.Bil2.Contract.Common;
+using Lykke.Bil2.Contract.Common.Exceptions;
+using Lykke.Bil2.Contract.Common.Extensions;
 using Lykke.Bil2.Contract.SignService.Responses;
 using Lykke.Bil2.Sdk.SignService.Services;
-using Ripple.Signing;
-using Ripple.TxSigning;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Ripple.Signing;
+using Ripple.TxSigning;
 
 namespace Lykke.Bil2.Ripple.SignService.Services
 {

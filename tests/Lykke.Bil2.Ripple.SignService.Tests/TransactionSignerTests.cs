@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
 using Lykke.Bil2.Contract.Common;
+using Lykke.Bil2.Contract.Common.Exceptions;
+using Lykke.Bil2.Contract.Common.Extensions;
 using Lykke.Bil2.Ripple.SignService.Services;
 using NUnit.Framework;
 
@@ -38,7 +40,7 @@ namespace Lykke.Bil2.Ripple.SignService.Tests
             // Assert
 
             Assert.AreEqual(
-                signed.TransactionHash,
+                signed.TransactionId,
                 "D1DEE34D71B2E063BDB24FF35B3E5F06E8F38DA2987AEE734F6EFF8339AE3BB6");
         }
 

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Lykke.Bil2.Contract.Common;
+using Lykke.Bil2.Contract.Common.Exceptions;
 using Lykke.Bil2.Contract.SignService.Requests;
 using Lykke.Bil2.Ripple.SignService.Services;
 using NUnit.Framework;
