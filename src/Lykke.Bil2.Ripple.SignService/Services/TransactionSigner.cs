@@ -24,8 +24,6 @@ namespace Lykke.Bil2.Ripple.SignService.Services
                     nameof(privateKeys));
             }
 
-            // TODO: switch to HEX instead of JSON if possible on TransactionExecutor side
-
             JObject txJson;
 
             try

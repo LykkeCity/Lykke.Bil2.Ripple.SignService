@@ -39,12 +39,12 @@ namespace Lykke.Bil2.Ripple.SignService.Services
                     nameof(CreateAddressTagRequest.Type));
             }
 
-            var buffer = new byte[8];
+            var buffer = new byte[4];
 
             RandomNumberGenerator.Create()
                 .GetBytes(buffer);
 
-            var tag = Math.Abs(BitConverter.ToInt64(buffer, 0))
+            var tag = BitConverter.ToUInt32(buffer, 0)
                 .ToString();
 
             return Task.FromResult(new CreateAddressTagResponse(tag));

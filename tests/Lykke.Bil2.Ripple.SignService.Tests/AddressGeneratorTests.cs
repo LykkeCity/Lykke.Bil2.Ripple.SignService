@@ -35,7 +35,7 @@ namespace Tests
             // Assert
 
             Assert.That(tags.Distinct().Count() == tags.Count);
-            Assert.DoesNotThrow(() => tags.Select(t => long.Parse(t)).ToList());
+            Assert.DoesNotThrow(() => tags.Select(t => uint.Parse(t)).ToList());
         }
 
         [Test]
