@@ -5,6 +5,7 @@ using Lykke.Bil2.Contract.Common;
 using Lykke.Bil2.Contract.Common.Exceptions;
 using Lykke.Bil2.Contract.SignService.Requests;
 using Lykke.Bil2.Ripple.SignService.Services;
+using Lykke.Bil2.SharedDomain;
 using NUnit.Framework;
 
 namespace Tests

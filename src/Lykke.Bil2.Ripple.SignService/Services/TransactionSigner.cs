@@ -6,6 +6,7 @@ using Lykke.Bil2.Contract.Common.Exceptions;
 using Lykke.Bil2.Contract.Common.Extensions;
 using Lykke.Bil2.Contract.SignService.Responses;
 using Lykke.Bil2.Sdk.SignService.Services;
+using Lykke.Bil2.SharedDomain;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Ripple.Signing;

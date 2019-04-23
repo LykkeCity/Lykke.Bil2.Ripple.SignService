@@ -9,6 +9,7 @@ using Lykke.Bil2.Sdk.SignService.Models;
 using Lykke.Bil2.Sdk.SignService.Services;
 using Lykke.Bil2.Sdk.Exceptions;
 using Ripple.Address;
+using Lykke.Bil2.SharedDomain;
 
 namespace Lykke.Bil2.Ripple.SignService.Services
 {
