@@ -27,6 +27,6 @@
 
   <ItemGroup>
     <PackageReference Include="Lykke.Bil2.Sdk.SignService" Version="1.0.0-beta.18" />
-    <PackageReference Include="Ripple.NetCore" Version="1.1.0" />
+    <PackageReference Include="Ripple.NetCore" Version="1.2.1" />
   </ItemGroup>
 </Project>
